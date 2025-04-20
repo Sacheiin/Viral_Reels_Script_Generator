@@ -168,6 +168,8 @@ Trending Sound Suggestions: Curated list updated weekly for suggested sounds.
 📣 Contributing
 We welcome contributions! Please fork the repository, make your changes, and submit a pull request.
 
+
+
 📅 Roadmap
 MVP Features:
 
@@ -194,6 +196,8 @@ Auto-scheduling for Reels
 Real-time Trending APIs
 
 Performance Analytics for Hooks
+
+
 
 🚀 Ready to Start?
 Get the project up and running quickly by following the steps above. If you need help, feel free to open an issue or contact the project maintainers.
