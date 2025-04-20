@@ -25,34 +25,47 @@ First, check if **Node.js** and **npm** are installed by running:
 ```bash
 node -v
 npm -v
+```
 
 If not installed, run the following command to install them:
 
+```bash
 winget install OpenJS.NodeJS.LTS
+```
 
 2. Check if Git is installed
 Ensure Git is installed by running:
 
+```bash
 git --version
+```
 
 If not installed, run:
 
+```bash
 winget install Git.Git
+```
 
 3. Clone the Repository
 
 Clone this repository to your local machine:
 
-
+```bash
 git clone https://github.com/your-username/viral-reels-mvp.git
+```
 
+```bash
 cd viral-reels-mvp
+```
+
 
 4. Install Dependencies
 Install the required project dependencies:
 
-
+```bash
 npm install
+```
+
 
 5. Set Up MongoDB Connection (Optional for Local Dev)
 
@@ -77,8 +90,10 @@ Create an application and copy your Frontend API and Publishable Key.
 
 Add the keys to your .env.local file:
 
+```bash
 CLERK_FRONTEND_API=your_clerk_frontend_api
 CLERK_PUBLISHABLE_KEY=your_publishable_key
+```
 
 7. Set Up DeepSeek API
 Sign up at DeepSeek.
@@ -87,7 +102,9 @@ Copy your API Key.
 
 Add it to .env.local:
 
+```bash
 DEEPSEEK_API_KEY=your_deepseek_api_key
+```
 
 8. Set Up PlayHT (TTS)
 Sign up at PlayHT.
@@ -96,15 +113,18 @@ Go to the dashboard, and retrieve your User ID and Secret Key from the API secti
 
 Add them to .env.local:
 
+```bash
 PLAYHT_USER_ID=your_id
 PLAYHT_API_KEY=your_key
+```
 
 9. Run the Development Server
 
 Once everything is set up, you can start the development server:
 
+```bash
 npm run dev
-
+```
 Visit http://localhost:3000 to view the app.
 
 🔐 Environment Variables
@@ -112,13 +132,13 @@ Make sure the following environment variables are added to your .env.local file:
 
 MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/dbname
 
-
+```bash
 CLERK_FRONTEND_API=your_clerk_frontend_api
 CLERK_PUBLISHABLE_KEY=your_publishable_key
 DEEPSEEK_API_KEY=your_deepseek_api_key
 PLAYHT_USER_ID=your_id
 PLAYHT_API_KEY=your_key
-
+```
 
 ⚙️ Development Notes
 The project is designed for rapid prototyping and low-cost testing.
@@ -134,8 +154,9 @@ Set up a GitHub repo and push your changes for version control.
 
 Install VS Code (optional but recommended for devs):
 
+```bash
 winget install Microsoft.VisualStudioCode
-
+```
 
 🤖 AI Features Overview
 Text Generation: Uses DeepSeek API to generate scripts in the format of Hook → Body → CTA based on user input.
